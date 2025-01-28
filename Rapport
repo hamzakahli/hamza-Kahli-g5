@@ -1,0 +1,31 @@
+Rapport sur le programme de résolution de Sudoku
+Introduction
+Ce programme est conçu pour générer, résoudre et manipuler des grilles de Sudoku. Il est écrit en langage C et propose une interface simple qui permet d’interagir avec la grille et d’appliquer les règles du Sudoku. Voici un aperçu de ses fonctionnalités, avantages, limites, et des suggestions pour l'améliorer.
+
+Fonctionnalités principales
+Création d’une grille
+Le programme commence par générer une grille vide, puis la remplit automatiquement avec des valeurs respectant les règles du Sudoku.
+
+Validation des règles
+Avant d’ajouter un nombre dans une cellule, une fonction vérifie qu’il ne viole pas les règles : pas de doublons dans la ligne, la colonne ou le sous-bloc 3×3.
+
+Résolution de la grille
+Le programme utilise une méthode appelée backtracking pour résoudre les grilles. Il explore toutes les possibilités jusqu’à trouver une solution valide.
+
+Interaction avec l’utilisateur
+L’utilisateur peut entrer une ligne, une colonne et une valeur pour modifier une cellule. Le programme affiche la grille mise à jour après chaque action.
+
+Sauvegarde et chargement
+Une grille peut être sauvegardée dans un fichier texte pour être rechargée ultérieurement.
+
+Affichage clair
+La grille est présentée dans un format lisible, avec des points (.) pour les cellules vides.
+
+Fiabilité des vérifications
+Les règles du Sudoku sont appliquées rigoureusement, garantissant des grilles valides.
+
+Flexibilité d’utilisation
+L’utilisateur peut interagir avec la grille, la modifier et sauvegarder son état à tout moment.
+
+Persistance des données
+Les fonctionnalités de sauvegarde et de chargement permettent de reprendre une partie sans perdre les progrès réalisés.
